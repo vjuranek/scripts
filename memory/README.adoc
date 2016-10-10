@@ -1,0 +1,11 @@
+= Memory related scripts
+
+== mem_usage.sh
+`mem_usage.sh` prints shared and private memory sums of the process as reported by `/proc/<pid>/smaps`.
+
+=== Usage
+`./mem_usage.sh $PID`
+
+=== Links
+* http://unix.stackexchange.com/questions/33381/getting-information-about-a-process-memory-usage-from-proc-pid-smaps[Getting information about a process' memory usage from /proc/pid/smaps]
+* https://www.kernel.org/doc/Documentation/filesystems/proc.txt[kernel proc documentation]
